@@ -1,0 +1,11 @@
+.div1{
+    display: flex;
+}
+
+.parrafo1{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 15px;
+    width: 30%;
+}

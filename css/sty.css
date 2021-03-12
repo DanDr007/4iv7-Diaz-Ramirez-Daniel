@@ -1,5 +1,5 @@
 body{
-background-color: beige;
+background-color: rgb(243, 243, 189);
 text-align: center;
 }
 div{display: flex;
@@ -18,18 +18,19 @@ section{
     border-radius: 1mm;
     border: right 50px;
     text-align: left;
-    animation-name: anim;
-    animation-duration: 1s;
-    animation-iteration-count: initial;
 }
-@keyframes anim{
-
-    from{
-        background-color:  rgb(255,255,255);
-    }
-    to{
-        background-color: rgb(110, 110, 110);
-    }
+button{
+    background-color: rgb(115, 115, 115);
+    border-color: rgb(163, 161, 161);
+    padding: 2mm;
+    border-radius: 1mm;
+    color: white;
+    margin: 1mm;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(59, 78, 187);
+    transition: 100ms;
 }
 nav{
     display: flex;

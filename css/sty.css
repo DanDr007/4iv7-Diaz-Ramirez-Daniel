@@ -2,6 +2,16 @@ body{
 background-color: beige;
 text-align: center;
 }
+div{display: flex;
+    justify-content: center;
+    align-items: center;}
+section{
+    background-color: white;
+    width: 200mm ;
+    align-items:center;
+    justify-content: center;
+    
+}
 .boton{
     border:solid green;
     background-color:white;
@@ -21,9 +31,7 @@ text-align: center;
         background-color: rgb(110, 110, 110);
     }
 }
-.a{display: flex;}
 nav{
     display: flex;
 }
-.b{display: flex ;}
-.r{text-align: center;}
+.r{text-align: justify;}

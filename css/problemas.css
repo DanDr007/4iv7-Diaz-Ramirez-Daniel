@@ -1,0 +1,26 @@
+html{
+    background-color: gray;
+}
+nav{
+    display: flex;
+    padding: 2mm;
+    margin: 2mm;
+}
+button{
+    padding: 2mm;
+    margin: 2mm;
+    border-radius: 1mm;
+}
+button:hover{
+    background-color: white;
+}
+section{
+    text-align: center;
+    width: 80%;
+    background-color: white;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,10 @@
+html{
+    background-color:rgb(230, 223, 129);
+}
+div{
+    display:flex;
+    text-align:center;
+    align-items:center;
+    background-color:white;
+}
+

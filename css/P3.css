@@ -1,10 +1,14 @@
 html{
     background-color:rgb(230, 223, 129);
+    text-align:center;
 }
 div{
-    display:flex;
-    text-align:center;
-    align-items:center;
-    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+section{
+    text-align: center;
+    width: 80%;
+    background-color: white;}
